@@ -54,24 +54,27 @@
                     <ul class="top-header-information">
                         <li>
                             <i class='bx bx-envelope'></i>
-                            <a href="mailto:training@solutionmakers.info">training@solutionmakers.info</a>
+                            <a href="mailto:test">test</a>
                         </li>
 
                         <li>
                             <i class='bx bxs-phone'></i>
-                            <a href="tel:966 569832820">+966 569832820</a>
+                            <a href="tel:966 569832820">test</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-lg-6 text-right">
-                    <ul class="top-header-others">
-                        <li class="languages-list">
-                            <select>
-                                <option value="1">English</option>
-                                <option value="2">Germany</option>
-                                <option value="3">Australia</option>
-                            </select>
+                    <button class="button-language" onClick="showLanguage()">
+                        language
+                    </button>
+                    <ul class="languages-list" id="languages-list">
+                        <li>
+                            <a href="index-ar.html">عربي</a>
+                        </li>
+                        <li>
+
+                            <a href="index.html">English</a>
                         </li>
                     </ul>
                 </div>
@@ -115,169 +118,131 @@
                                 </a>
                                 <ul class="dropdown-menu row">
                                     <div class="col-lg-4 col-12">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="human-resources.html">Law</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="customer-sevice.html">military
-                                                and security agencies </a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="communication.html">Diplomatic
-                                                protocol and etiquette</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="managment.html">operational
-                                                processes</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="strategy-planing.html">Corporate
-                                                Governance</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="public-relations.html">Engineering</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="secretarial.html">Review, audit
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="banking-and-insurance.html">Banking
+                                                & Insurance</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="data-managment.html">Data
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="customer-sevice.html">Customer
+                                                Service</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="hands-on-automation-and-process-control.html">Automation
+                                                and Process Control</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="engineering-and-maintenance.html">Engineering and
+                                                Maintenance</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="contracts-management.html">Contracts
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="quality-and-productivity.html">Quality and
+                                                Productivity</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="social-insurance&retirement.html">Social
+                                                Insurance & Retirement</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="ships&port-management.html">Ships
+                                                & Port Management
+                                            </a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="security-management.html">Security
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="crisis-management.html">
+                                                crisis
+                                                management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="construction-management.html">Construction
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="communication.html">Communication
+                                                and Writing Skills</a></li>
+                                    </div>
+                                    <div class="col-lg-4 col-12">
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="innovation-and-digital-transformation.html">
+                                                Digital
+                                                Innovation
+                                                and Transformation</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="hr&training.html">Human
+                                                Resources and Training</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="self-development.html">Self
+                                                Development</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="public-private-partnership.html">Public Private
+                                                Partnership</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="procurement-and-supply-chain-management.html">
+                                                Supply Chain Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="marketing&sales.html">Marketing
+                                                and Sales</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="risk-managment.html">Risk
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="managment.html">Leadership
+                                                and Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="public-relations.html">Public
+                                                Relations</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="project-mangment.html">Project
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="planning-and-development.html">Urban
+                                                Planning and Development </a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="sustainability&csr.html">Sustainability & CSR</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="police&law-enforcement.html">Police
+                                                & Law Enforcement
+                                            </a></li>
+                                    </div>
+                                    <div class="col-lg-4 col-12">
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="accounting-and-finance.html">Accounting and
+                                                Finance</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="health-safety-and-environment.html">Health,
+                                                Safety
                                                 and
-                                                oversight</a>
-                                        </li>
-                                    </div>
-                                    <div class="col-lg-4 col-12">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="project-mangment.html">HR &
-                                                Training</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="accounting-and-finance.html">Accounting and Finance</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="banking-and-insurance.html">Public
-                                                Relations and Media</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="self-development.html">Project
-                                                management</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="quality-productivity.html">public affairs
-                                            </a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="women-only.html">Communication
+                                                Environment
+                                            </a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="it-managment.html">IT
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="root-cause-analysis.html">Root
+                                                Cause Analysis</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="pre-retirement.html">Pre-Retirement</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="maintenance-and-engineering.html">Maintenance and
+                                                Engineering</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="legal.html">Legal</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="joint-venture.html">Joint
+                                                Venture</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="planning-and-strategy-management.html">Planning
                                                 and
-                                                writing skills</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="marketing&sales.html">women's
-                                                development</a>
-                                        </li>
-                                    </div>
-                                    <div class="col-lg-4 col-12">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="auditing-and-governance-risk.html">sales and marketing</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="contracts-and-purchases.html">health
-                                                and the environment
-                                            </a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="legal.html">Data management and
-                                                analysis</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="crisis-managment.html">Planning
-                                                and
-                                                strategy department</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="it-managment.html">Healthcare
-                                                management courses</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="data-managment.html">Root cause
-                                                analysis</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="engineering-and-instrumentation.html">Personal skills and self
-                                                development</a>
-                                        </li>
-                                    </div>
-                                    <div class="col-lg-4 col-12">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="maintenance-planning.html">leadership and management</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link" href="oil-and-gas.html">Contracts and
-                                                tenders</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="supply-chain-and-logistics.html">Urban planning and
-                                                development</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="security-management.html">digital transformation </a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Information Technology
-                                                Management</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Business process
-                                                management</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html"> Customer service</a>
-                                        </li>
-                                    </div>
-                                    <div class="col-lg-4 col-12">
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Maintenance engineering
-                                                programs</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Purchasing and warehouse
-                                                logistics</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Police and security sector</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Secretarial and office
-                                                management</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Banks and the banking
-                                                sector</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html"> crisis
-                                                management</a>
-                                        </li>
-                                        <li class="nav-item submenu-item">
-                                            <a class="nav-link sub-menu-nav-link"
-                                                href="health-safety-and-environment.html">Risk Management</a>
-                                        </li>
+                                                Strategy
+                                                Management</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="oil&gas.html">Oil &
+                                                Gas</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="auditing-and-governance-risk.html">Auditing and
+                                                Governance,
+                                                Risk</a></li>
+                                        <li class="nav-item submenu-item"><a class="nav-link sub-menu-nav-link"
+                                                href="secretarial.html">Secretarial</a></li>
                                     </div>
                                 </ul>
                             </li>
@@ -386,7 +351,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact">
                             <h3>
-                                <span class="odometer" data-count="26">00</span>
+                                <span class="odometer" data-count="38">00</span>
                             </h3>
                             <p>Categories</p>
                         </div>
@@ -395,7 +360,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact">
                             <h3>
-                                <span class="odometer" data-count="500">00</span>
+                                <span class="odometer" data-count="1960">00</span>
                             </h3>
                             <p>Courses</p>
                         </div>
@@ -436,9 +401,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">mission</a>
+                                <a href="banking-and-insurance.html">Banking
+                                    & Insurance</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="banking-and-insurance.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -447,9 +413,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">strategy planning</a>
+                                <a href="data-managment.html">Data
+                                    Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="data-managment.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -458,9 +425,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">public relations</a>
+                                <a href="customer-sevice.html">Customer
+                                    Service</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="customer-sevice.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -469,9 +437,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">secretarial</a>
+                                <a href="hands-on-automation-and-process-control.html">Automation
+                                    and Process Control</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="hands-on-automation-and-process-control.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -480,9 +449,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">human resources</a>
+                                <a href="engineering-and-maintenance.html">Engineering and
+                                    Maintenance</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="engineering-and-maintenance.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -491,9 +461,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">customer service</a>
+                                <a href="contracts-management.html">Contracts
+                                    Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="contracts-management.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -502,9 +473,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">communication</a>
+                                <a href="quality-and-productivity.html">Quality and
+                                    Productivity</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="quality-and-productivity.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -513,9 +485,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">self development</a>
+                                <a href="social-insurance&retirement.html">Social
+                                    Insurance & Retirement</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="social-insurance&retirement.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -524,9 +497,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">quality productivity</a>
+                                <a href="ships&port-management.html">Ships
+                                    & Port Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="ships&port-management.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -535,9 +509,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">women only</a>
+                                <a href="security-management.html">Security
+                                    Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="security-management.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -546,9 +521,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">marketing & sales</a>
+                                <a href="crisis-management.html">crisis
+                                    management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="crisis-management.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -557,9 +533,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">project management</a>
+                                <a href="construction-management.html">Construction
+                                    Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="construction-management.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -568,9 +545,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">accounting and finance</a>
+                                <a href="communication.html">Communication
+                                    and Writing Skills</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="communication.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -579,9 +557,11 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">banking and insurance</a>
+                                <a href="innovation-and-digital-transformation.html">Digital
+                                    Innovation
+                                    and Transformation</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="innovation-and-digital-transformation.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -590,9 +570,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">auditing and governance risk</a>
+                                <a href="hr&training.html">Human
+                                    Resources and Training</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="hr&training.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -601,9 +582,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">contracts and purchases</a>
+                                <a href="self-development.html">Self
+                                    Development</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="self-development.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -612,9 +594,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">legal</a>
+                                <a href="public-private-partnership.html">Public Private
+                                    Partnership</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="public-private-partnership.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -623,9 +606,9 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">crisis management</a>
+                                <a href="procurement-and-supply-chain-management.html">Supply Chain Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="procurement-and-supply-chain-management.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -634,9 +617,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">it management</a>
+                                <a href="marketing&sales.html">Marketing
+                                    and Sales</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="marketing&sales.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -645,9 +629,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">data management</a>
+                                <a href="risk-managment.html">Risk
+                                    Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="risk-managment.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -656,9 +641,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">engineering and instrumentation</a>
+                                <a href="managment.html">Leadership
+                                    and Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="managment.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -667,9 +653,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">maintenance planning</a>
+                                <a href="project-mangment.html">Project
+                                    Management</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="project-mangment.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -678,9 +665,9 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">oil and gas</a>
+                                <a href="sustainability&csr.html">Sustainability & CSR</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="sustainability&csr.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -689,9 +676,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">supply chain and logistics</a>
+                                <a href="police&law-enforcement.html">Police
+                                    & Law Enforcement</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="police&law-enforcement.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -700,9 +688,10 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">security management</a>
+                                <a href="accounting-and-finance.html">Accounting and
+                                    Finance</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="accounting-and-finance.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -711,9 +700,166 @@
                     <div class="single-blog-item">
                         <div class="post-content">
                             <h3>
-                                <a href="blog-details.html">health, safety and environment</a>
+                                <a href="health-safety-and-environment.html">Health,
+                                    Safety
+                                    and
+                                    Environment</a>
                             </h3>
-                            <a href="blog-details.html" class="blog-btn">Learn more <i
+                            <a href="health-safety-and-environment.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="it-managment.html">
+                                    IT
+                                    Management</a>
+                            </h3>
+                            <a href="it-managment.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="root-cause-analysis.html">
+                                    Root
+                                    Cause Analysis</a>
+                            </h3>
+                            <a href="root-cause-analysis.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="pre-retirement.html">
+                                    Pre-Retirement</a>
+                            </h3>
+                            <a href="pre-retirement.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="maintenance-and-engineering.html">
+                                    Maintenance and
+                                    Engineering</a>
+                            </h3>
+                            <a href="maintenance-and-engineering.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="legal.html">
+                                    Legal</a>
+                            </h3>
+                            <a href="legal.html" class="blog-btn">Learn more <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="joint-venture.html">
+                                    Joint
+                                    Venture</a>
+                            </h3>
+                            <a href="joint-venture.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="planning-and-strategy-management.html">
+                                    Planning
+                                    and
+                                    Strategy
+                                    Management</a>
+                            </h3>
+                            <a href="planning-and-strategy-management.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="oil&gas.html">
+                                    Oil &
+                                    Gas</a>
+                            </h3>
+                            <a href="oil&gas.html" class="blog-btn">Learn more <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="auditing-and-governance-risk.html">
+                                    Auditing and
+                                    Governance,
+                                    Risk</a>
+                            </h3>
+                            <a href="auditing-and-governance-risk.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="secretarial.html">
+                                    Secretarial</a>
+                            </h3>
+                            <a href="secretarial.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="public-relations.html">
+                                    Public
+                                    Relations</a>
+                            </h3>
+                            <a href="public-relations.html" class="blog-btn">Learn more <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-blog-item">
+                        <div class="post-content">
+                            <h3>
+                                <a href="planning-and-development.html">
+                                    Urban
+                                    Planning and Development</a>
+                            </h3>
+                            <a href="planning-and-development.html" class="blog-btn">Learn more <i
                                     class="flaticon-right-arrow"></i></a>
                         </div>
                     </div>
@@ -740,12 +886,12 @@
                             <li>
                                 <i class='bx bxs-phone'></i>
                                 <span>Phone</span>
-                                <a href="tel:15147939-357">+966 569832820</a>
+                                <a href="tel:966 569832820">test</a>
                             </li>
                             <li>
                                 <i class='bx bx-envelope'></i>
                                 <span>Email</span>
-                                <a href="mailto:hello@leve.com">training@solutionmakers.info</a>
+                                <a href="mailto:test">test</a>
                             </li>
                         </ul>
                     </div>
@@ -779,10 +925,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
                         <h3>Our Location</h3>
-                        <p>Solution Makers Institute For Training - Nakhla Trading Center – First
-                            Floor -Office
-                            (19-20) ,4380 Imam Saud Bin Abdulaziz Bin Mohammed Rd,6780 Al Taawun Dist.12476 RIYADH
-                        </p>
+                        <p>test</p>
                     </div>
                 </div>
             </div>

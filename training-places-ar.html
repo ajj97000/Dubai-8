@@ -54,23 +54,27 @@
                     <ul class="top-header-information">
                         <li>
                             <i class='bx bx-envelope'></i>
-                            <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+                            <a href="mailto:test">test</a>
                         </li>
 
                         <li>
                             <i class='bx bxs-phone'></i>
-                            <a href="tel:15143125678">+1 (514) 312-5678</a>
+                            <a href="tel:15143125678">test</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-lg-6 text-left">
-                    <ul class="top-header-others">
-                        <li class="languages-list">
-                            <select>
-                                <option value="2">عربي</option>
-                                <option value="1">English</option>
-                            </select>
+                    <button class="button-language" onClick="showLanguage()">
+                        اللغة
+                    </button>
+                    <ul class="languages-list" id="languages-list">
+                        <li>
+                            <a href="index-ar.html">عربي</a>
+                        </li>
+                        <li>
+
+                            <a href="index.html">English</a>
                         </li>
                     </ul>
                 </div>
@@ -96,80 +100,220 @@
         <div class="main-navbar">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index-ar.html">
                         <img src="assets/img/logo-1.png" alt="image">
                     </a>
 
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="credit-card.html" class="nav-link">
+                                <a href="index-ar.html" class="nav-link">
                                     الصفحة الرئيسية
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link active">
-                                    اقسام التدريب
+                                <a class="nav-link active" style="cursor: pointer;">
+                                    اقسام
                                     <i class='bx bx-chevron-down'></i>
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <div>
-                                        <li><a href="domain.html">قيادة إدارة</a></li>
-                                        <li><a href="web-hosting.html">التخطيط الاستراتيجي</a></li>
-                                        <li><a href="why-us.html">العلاقات العامة</a></li>
-                                        <li><a href="404.html">سكرتارية</a></li>
-                                        <li><a href="blog.html">الموارد البشرية</a></li>
-                                        <li><a href="blog.html">خدمة الزبائن</a></li>
-                                        <li><a href="blog.html">الاتصالات</a></li>
-                                        <li><a href="blog.html">تطوير الذات</a></li>
+                                <ul class="dropdown-menu row">
+                                    <div class="col-lg-4 col-12">
+
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="legal-ar.html">القانون</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="military-and-security-agencies-ar.html">الجهات
+                                                العسكرية والامنية </a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="diplomatic-protocol-and-etiquette-ar.html">البروتوكول
+                                                الدبلوماسى</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="operations-monitoring-ar.html">مراقبة
+                                                العمليات التشغيلية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="corporate-governance-ar.html">حوكمة
+                                                الشركات</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="engineering-ar.html">الهندسة</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="audit&oversight-ar.html">المراجعة
+                                                والتدقيق والرقابة</a>
+                                        </li>
                                     </div>
-                                    <div>
-                                        <li><a href="blog.html">إنتاجية عالية الجودة</a></li>
-                                        <li><a href="blog.html">النساء فقط</a></li>
-                                        <li><a href="blog.html">التسويق والمبيعات</a></li>
-                                        <li><a href="blog.html">ادارة مشروع</a></li>
-                                        <li><a href="blog.html">المحاسبة و المالية</a></li>
-                                        <li><a href="blog.html">البنوك والتأمين</a></li>
-                                        <li><a href="blog.html">التدقيق و المخاطر</a></li>
-                                        <li><a href="blog.html">العقود والمشتريات</a></li>
+                                    <div class="col-lg-4 col-12">
+
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="hr&training-ar.html">الموارد
+                                                البشرية والتدريب</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="accounting-and-finance-ar.html">المحاسبة و المالية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="public-relations-ar.html">العلاقات العامة والأعلام</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="project-mangment-ar.html">اداره
+                                                المشاريع</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="public-affairs-ar.html">القطاع
+                                                العام و الشؤون العامة
+                                            </a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="communication-ar.html">مهارات
+                                                التواص
+                                                والكتابة</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="women-only-ar.html">تنمية
+                                                المرأة</a>
+                                        </li>
                                     </div>
-                                    <div>
-                                        <li><a href="blog.html">القانون</a></li>
-                                        <li><a href="blog.html">إدارة الأزمات</a></li>
-                                        <li><a href="blog.html">إدارة تقنية المعلومات</a></li>
-                                        <li><a href="blog.html">إدارة البيانات</a></li>
-                                        <li><a href="blog.html">الهندسة والمعدات الجودة</a></li>
-                                        <li><a href="blog.html">تخطيط أعمال الصيانة</a></li>
-                                        <li><a href="blog.html">النفط والغاز</a></li>
-                                        <li><a href="blog.html">الخدمات اللوجيستية</a></li>
+                                    <div class="col-lg-4 col-12">
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="marketing&sales-ar.html">التسويق
+                                                والمبيعات</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="health-safety-and-environment-ar.html">والسلامة والصحة المهنية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="data-managment-ar.html">ادارة
+                                                وتحليل
+                                                البيانات</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="strategy-planing-ar.html">ادارة
+                                                التخطيط والاستراتيجية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="health-care-management-ar.html">دورات
+                                                ادارة
+                                                الرعاية الصحية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="root-cause-analysis-ar.html">تحليل
+                                                الاسباب الجذرية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="self-development-ar.html">تطوير
+                                                الذات </a>
+                                        </li>
                                     </div>
-                                    <div>
-                                        <li><a href="blog.html">إدارة الأمن</a></li>
-                                        <li><a href="blog.html">الصحة والسلامة والبيئة</a></li>
+                                    <div class="col-lg-4 col-12">
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="managment-ar.html">القيادة
+                                                ولادارة</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="contracts-and-purchases-ar.html">العقود
+                                                والمناقصات
+                                            </a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="planning-and-development-ar.html">التخطيط والتطوير العمرانى</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="innovation-and-transformation-ar.html">الابتكار والتحول الرقمى</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="it-managment-ar.html">ادارة
+                                                تقنية المعلومات</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="bussiness-management-ar.html">ادارة اجراءات العمل</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="customer-sevice-ar.html">دورات
+                                                وبرامج خدمة
+                                                العملاء</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-lg-4 col-12">
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="maintenance-planning-ar.html">برامج الصيانة والتشغيل
+                                                والهندسة
+                                                الفنية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="warehousing-and-logistics-ar.html">المشتريات والمخازن
+                                                اللوجستية</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="security-and-police-ar.html">القطاع الامنى والشرطى</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="secretarial-ar.html">السكرتارية
+                                                وادارة
+                                                المكاتب</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="banking-and-insurance-ar.html">البنوك والقطاع المصرفى</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link"
+                                                href="crisis-managment-ar.html">استمرارية الأعمال وادارة
+                                                الازمات</a>
+                                        </li>
+                                        <li class="nav-item submenu-item">
+                                            <a class="nav-link sub-menu-nav-link" href="risk-managment-ar.html">ادارة
+                                                المخاطر</a>
+                                        </li>
                                     </div>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a href="credit-card.html" class="nav-link">
-                                    خطة التدريب
-                                </a>
-                            </li>
 
                             <li class="nav-item">
-                                <a href="credit-card.html" class="nav-link">
+                                <a href="training-places-ar.html" class="nav-link">
                                     أماكن التدريب
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="loans.html" class="nav-link">
+                                <a href="course-cost-ar.html" class="nav-link">
                                     تكلفة الدورة
                                 </a>
                             </li>
-
                             <li class="nav-item">
-                                <a href="credit-card.html" class="nav-link">
-                                    اتصل بنا
+                                <a href="" download="https://mawred-edu.com/en/training-plan/en-plan-2022.xlsx"
+                                    class="nav-link">
+                                    الخطه التدريبيه
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="clients-ar.html" class="nav-link">
+                                    العملاء
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact-us-ar.html" class="nav-link">
+                                    كن على اتصال
                                 </a>
                             </li>
                         </ul>
@@ -288,19 +432,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
+                    <a class="navbar-brand" href="index-ar.html">
+                        <img src="assets/img/logo-1.png" alt="image" style="background-color: #fff;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h3>اتصل بنا</h3>
+                        <h3>
+                            كن على اتصال
+                        </h3>
 
                         <ul class="footer-contact-info">
                             <li>
                                 <i class='bx bxs-phone'></i>
                                 <span>الهاتف</span>
-                                <a href="tel:15147939-357">+966 569832820</a>
+                                <a href="tel:966 569832820">test</a>
                             </li>
                             <li>
                                 <i class='bx bx-envelope'></i>
                                 <span>البريد الالكترونى</span>
-                                <a href="mailto:hello@leve.com">training@solutionmakers.info</a>
+                                <a href="mailto:test">test</a>
                             </li>
                         </ul>
                     </div>
@@ -308,20 +459,29 @@
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget pl-5">
-                        <h3>الأقسام الفرعية</h3>
+                        <h3>الاقسام </h3>
 
                         <ul class="quick-links">
                             <li>
-                                <a href="#">خطة التدريب</a>
+                                <a href="training-places-ar.html">أماكن التدريب</a>
                             </li>
                             <li>
-                                <a href="#">أماكن التدريب</a>
+                                <a href="course-cost-ar.html">تكلفة الدورة</a>
+                            </li>
+
+                            <li>
+                                <a href="" download="https://mawred-edu.com/en/training-plan/en-plan-2022.xlsx">خطة
+                                    التدريب</a>
                             </li>
                             <li>
-                                <a href="#">تكلفة الدورة</a>
+                                <a href="clients-ar.html">
+                                    العملاء
+                                </a>
                             </li>
                             <li>
-                                <a href="#">اتصل بنا</a>
+                                <a href="contact-us-ar.html">
+                                    كن على اتصال
+                                </a>
                             </li>
                         </ul>
                     </div>
